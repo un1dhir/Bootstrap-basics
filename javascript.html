@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--    internal css-->
+    <style>
+        body{
+            font-family: Ariel,sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        button{
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: orange;
+            color: white;
+            border: none;
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: darkgreen;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+</head>
+<body>
+<h1>Welcome to javascript</h1>
+<p>Click the button below to find out what happens</p>
+<button id="mybutton">Click me</button>
+
+<script>
+    const button=document.getElementById('mybutton')
+    button.addEventListener('click',function () {
+        alert('what up nigga! welcome to javascript')
+
+    });
+</script>
+
+</body>
+</html>
